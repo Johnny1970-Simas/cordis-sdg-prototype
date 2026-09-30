@@ -1,0 +1,13 @@
+{
+  "source_corpus_sha256": "1496a16ee79649d573a53697781b2fd950c18a5469c6a9f545f35dd5397771a7",
+  "subset_sha256": "1fbefa9fa60df75fc816802a3756cd87e8c9d017dce6bdc2615b33c011fd24d2",
+  "subset_projects": 80,
+  "model_database_sha256": "4d50129df7c98ab62759b7903a3c7f043f2107ea1713aadce1be72636f95dbb3",
+  "model_run_counts": [
+    [
+      "ollama-pilot-3a4834bb7792",
+      20
+    ]
+  ],
+  "note": "Objectives are unchanged source extracts. No human labels exported. Model database is a consistent static snapshot; rerun this exporter to refresh it."
+}

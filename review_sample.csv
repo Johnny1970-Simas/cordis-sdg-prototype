@@ -1,0 +1,81 @@
+cohort,project_id,title,programme_part,programme_part_title,objective_available,keywords_available
+holdout,101061142,MultI-recycling strategies of LWR SNF focusing on MOlten SAlt technology,EURATOM2027,Euratom Research and Training Programme (EURATOM),True,True
+holdout,101166335,Research on Materials Ageing and Structural Integrity of Research Reactors,EURATOM2027,Euratom Research and Training Programme (EURATOM),True,True
+holdout,101173510,EU-UA Nuclear Research and Education Capacity Building,EURATOM2027,Euratom Research and Training Programme (EURATOM),True,True
+holdout,101040160,A MISTery of Long Secondary Periods in Pulsating Red Giants - Traces of Exoplanets?,HORIZON.1.1,European Research Council (ERC),True,True
+holdout,101043372,Modeling binary neutron star from inspirals to remnants and their multimessenger emissions,HORIZON.1.1,European Research Council (ERC),True,False
+holdout,101098074,CHARTING THE TOKEN OF TIME: YAP/TAZ TRANSCRIPTIONAL REGULATORS AT THE ROOTS OF AGING,HORIZON.1.1,European Research Council (ERC),True,True
+holdout,101113389,Focused Targeting of Inhaled Magnetic Aerosols for Lung Cancer,HORIZON.1.1,European Research Council (ERC),True,False
+holdout,101141685,Paradoxical activation of oncogenic signaling as a cancer treatment strategy.,HORIZON.1.1,European Research Council (ERC),True,True
+holdout,101199020,A high performance cost-effective MINFLUX microscope,HORIZON.1.1,European Research Council (ERC),True,False
+holdout,101201568,Advanced Quantized FRActure MEchanics models of ice and snow for GLObal Warming risk mitigation,HORIZON.1.1,European Research Council (ERC),True,True
+holdout,101073542,Anthropology of Global Climate Urgency,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,False
+holdout,101148826,Sub-Nanoscale Observation of Magnetic Monopole Noise,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+holdout,101149910,Micro-behaviors Recognitions through Nonverbal Signals,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+holdout,101153162,CRISPR/Cas-based innovative electrochemical multiplexed immunosensor for specific detection of ovarian carcinoma biomarkers in urine,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+holdout,101204687,Assessing Carbon Emission Impacts of Circular Economy Measures for Construction and Demolition Wastes in the European Union,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+holdout,101276034,Digital Electrochemical Separation for Critical Raw Material Recovery: Metals and REEs,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+holdout,101282533,Twist-Engineered Magnetism and Magnetotransport in CrSBr-Based Van Der Waals Heterostructures,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+holdout,101283536,ARANEA: Physics-Enhanced AI for Soil–Pile Interaction Monitoring,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+holdout,101187966,"DIGITAfrica, Towards a comprehensive pan-African research infrastructure in Digital Sciences",HORIZON.1.3,Research infrastructures,True,True
+holdout,101188365,TowaRds AdvaNced multidiSciplinary Fault ObseRvatory systeMs²,HORIZON.1.3,Research infrastructures,True,True
+holdout,101292376,"COordination, Management, Planning And Strategic Support for the Einstein Telescope Project​",HORIZON.1.3,Research infrastructures,True,True
+holdout,101057522,"Adopting ISO 82304-2 and a trusted EU mHealth label for a single market that enables patients, citizens, health professionals, systems and authorities to benefit from a healthy supply of useful apps.",HORIZON.2.1,Health,True,False
+holdout,101103217,"Building resilient research ethics, Diagnostics and medicines regulatory capacity during routine and public health emergency periods",HORIZON.2.1,Health,True,True
+holdout,101145817,Fortifying the automated smartphone-based Cough Audio classification for rapid triaGE testing for tuberculosis project,HORIZON.2.1,Health,True,True
+holdout,101190669,Implementation of an Integrated Digital Health System for Infectious Diseases  in Maternal and Child Health In East Africa,HORIZON.2.1,Health,True,True
+holdout,101095170,"Countering Oppositional Political Extremism through Attuned Dialogue: Track, Attune, Limit.",HORIZON.2.2,"Culture, creativity and inclusive society",True,True
+holdout,101132671,Detecting and Countering Information Suppression from A Transnational Perspective,HORIZON.2.2,"Culture, creativity and inclusive society",True,True
+holdout,101203247,Fast-Tracking the National Narrative for Climate-Neutral Urban Futures,HORIZON.2.2,"Culture, creativity and inclusive society",True,True
+holdout,101070670,A SCALABLE AND PRACTICAL PRIVACY-PRESERVING FRAMEWORK,HORIZON.2.3,Civil Security for Society,True,True
+holdout,101168023,Transport resilience against Cyber and Non-Cyber Events to prevent Network Disruption,HORIZON.2.3,Civil Security for Society,True,True
+holdout,101168393,Countering Crime and Terrorism and their Links to Transnational Illegal Activities by Fostering International Cooperation,HORIZON.2.3,Civil Security for Society,True,True
+holdout,101080152,Truly Resilient Quantum Limited Traveling Wave Parametric Amplifiers,HORIZON.2.4,"Digital, Industry and Space",True,True
+holdout,101135455,INNOVATIVE DELTA QUALIFICATION APPROACH FOR ELECTRIC PROPULSION SYSTEMS,HORIZON.2.4,"Digital, Industry and Space",True,True
+holdout,101178689,Boosting the Industrial Uptake of Biodegradable polymers for packaging applications by implementing digital tools and advanced techniques to achieve a holistic sustainability goal,HORIZON.2.4,"Digital, Industry and Space",True,True
+holdout,101295335,"Remanufacturing Upscaling via Semantic and interoperable digital Twins towards circuLar, AI-driven, standardized and Industry 5.0-ready manuFacturing Ecosystems",HORIZON.2.4,"Digital, Industry and Space",True,True
+holdout,101056938,Dynamic Techno-Economical Scenario Simulation Model for Sustainable Waterborne Activities and Transport,HORIZON.2.5,"Climate, Energy and Mobility",True,True
+holdout,101069573,"Safety assUraNce fRamework for connected, automated mobIlity SystEms",HORIZON.2.5,"Climate, Energy and Mobility",True,True
+holdout,101137725,Battery Cell Assembly Twin,HORIZON.2.5,"Climate, Energy and Mobility",True,True
+holdout,101137932,NOVEL DOMESTIC BATTERY GRADE LITHIUM CARBONATE VALUE CHAIN FOR GREEN LIFE,HORIZON.2.5,"Climate, Energy and Mobility",True,True
+holdout,101086524,NUTRI-KNOW - BROADENING THE IMPACT OF EIP-AGRI OPERATIONAL GROUPS IN THE FIELD OF NUTRIENT MANAGEMENT: KNOWLEDGE EXPLOITATION AND EASY-TO-UNDERSTAND           MATERIAL FOR FARMERS AND PRACTITIONERS,HORIZON.2.6,"Food, Bioeconomy Natural Resources, Agriculture and Environment",True,True
+holdout,101157265,"Innovative practices, tools and products to boost soil fertility and peat substitution in horticultural crops",HORIZON.2.6,"Food, Bioeconomy Natural Resources, Agriculture and Environment",True,True
+holdout,101180710,Effective Monitoring and Modelling solutions for data-driven hOlistic management of URBAN water quality,HORIZON.2.6,"Food, Bioeconomy Natural Resources, Agriculture and Environment",True,True
+holdout,101181582,Portable air analysis device for on-site pest detection during plants import controls,HORIZON.2.6,"Food, Bioeconomy Natural Resources, Agriculture and Environment",True,True
+holdout,101121093,Ecosystem synergies towards cross-border scale-up of innovative Digital and Deep Tech start-ups,HORIZON.3.1,The European Innovation Council (EIC),True,True
+holdout,101130740,Biophotonic Nanoparticle-enabled Laser Blood Test for Early Detection of Pancreatic Cancer,HORIZON.3.1,The European Innovation Council (EIC),True,True
+holdout,101298471,"The most compact, efficient and lowest cost electric drive unit to accelerate adoption of electric vehicles",HORIZON.3.1,The European Innovation Council (EIC),True,True
+holdout,101306994,"Synthetic Meiosis, Alternative Regeneration strategies, innovative Tools for Editing and targeting Regulatory regions in FRUIT crops",HORIZON.3.1,The European Innovation Council (EIC),True,True
+holdout,190175375,Pioneering diagnostics in dermatology and cancer,HORIZON.3.1,The European Innovation Council (EIC),True,True
+holdout,101071868,UTILIZING IOT-SYSTEMS FOR DECENTRALIZED PRODUCTION CONTROL AND OFFERING SURPLUS PRODUCTION CAPACITIES ON A PRODUCTION PLATFORM,HORIZON.3.2,European innovation ecosystems,True,True
+holdout,101113939,Development of advanced AI algorithms for remote patient monitoring,HORIZON.3.2,European innovation ecosystems,True,True
+holdout,101304810,European Interconnected Innovation Ecosystems for Cybersecurity Readiness,HORIZON.3.2,European innovation ecosystems,True,True
+holdout,101159520,EIT Culture & Creativity Business Plan 2024-2025,HORIZON.3.3,The European Institute of Innovation and Technology (EIT),True,True
+holdout,101270329,EIT Higher Education Initiative - Scaling Europe’s Innovation Ecosystems,HORIZON.3.3,The European Institute of Innovation and Technology (EIT),True,True
+holdout,101087081,Strengthening Computational Biodiversity Research in Greece,HORIZON.4.1,Widening participation and spreading excellence,True,True
+holdout,101090338,Impacts of Changing Climate on Arctic Shelf Hydrogeology,HORIZON.4.1,Widening participation and spreading excellence,True,True
+holdout,101158714,"Twinning Laboratory for an Innovative, Global Hub To Explore the Deep",HORIZON.4.1,Widening participation and spreading excellence,True,True
+holdout,101334356,Young Migrants in Outermost Europe 2026,HORIZON.4.1,Widening participation and spreading excellence,True,True
+holdout,101124648,Support to Retirement Savings Vehicle for European Research Institutions and research performing individuals (RESAVER),HORIZON.4.2,Reforming and enhancing the European R&I System,True,True
+holdout,101157697,BUILDING ON THE ACHIEVEMENTS OF PLAN S TO FURTHER ADVANCE OPEN ACCESS AND SCHOLARLY COMMUNICATION,HORIZON.4.2,Reforming and enhancing the European R&I System,True,True
+holdout,101292454,European Alliance for Knowledge Valorisation,HORIZON.4.2,Reforming and enhancing the European R&I System,True,True
+pilot,101166386,Technological Research Action Necessary for Safe PARrtitioning And Nuclear Transmutation,EURATOM2027,Euratom Research and Training Programme (EURATOM),True,True
+pilot,101042244,"Medical Electricity, Embodied Experiences, and Knowledge Construction in Europe and the Atlantic World, c.1740-1840",HORIZON.1.1,European Research Council (ERC),True,True
+pilot,101075975,Decoding Extracellular Vesicle-mediated organ crosstalk in vivo,HORIZON.1.1,European Research Council (ERC),True,True
+pilot,101151470,Elucidating the genomic architecture of genetic load,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+pilot,101210036,Elucidating the effects of gut microbiota-derived metabolites in iPSC-derived co-cultures from ADHD patients,HORIZON.1.2,Marie Skłodowska-Curie Actions (MSCA),True,True
+pilot,101131822,European Research Infrastructure on Semiconductor Chips,HORIZON.1.3,Research infrastructures,True,True
+pilot,101094639,THE URBAN BURDEN OF DISEASE ESTIMATION FOR POLICY MAKING,HORIZON.2.1,Health,True,True
+pilot,101287413,TRAcking and Countering Technology-Facilitated Gender-Based Violence through Evidence-based Approaches across the Conflict–Refuge Continuum in Europe,HORIZON.2.2,"Culture, creativity and inclusive society",True,True
+pilot,101121271,CustOms exteNded iNteroperablE Common informaTiOn shaRing environment,HORIZON.2.3,Civil Security for Society,True,True
+pilot,101069990,AI enabled artistic solutions for sustainable food systems,HORIZON.2.4,"Digital, Industry and Space",True,True
+pilot,101138276,Valorisation of iron-rich & Zinc-containing steelmaking by-products via HYdrogen-based ReductiON,HORIZON.2.4,"Digital, Industry and Space",True,True
+pilot,101172954,Enzymatic CO2 Capture in a Rotating Packed Bed and Electrocatalytic CO2 Reduction to Useful Products,HORIZON.2.5,"Climate, Energy and Mobility",True,True
+pilot,101263875,Space-based Presicion & Exact Surveillance with multilAteRation as a Service,HORIZON.2.5,"Climate, Energy and Mobility",True,True
+pilot,101084341,"NATURESCAPES: NATURE-BASED SOLUTIONS FOR CLIMATE RESILIENT, NATURE POSITIVE AND SOCIALLY JUST COMMUNITIES IN DIVERSE LANDSCAPES",HORIZON.2.6,"Food, Bioeconomy Natural Resources, Agriculture and Environment",True,True
+pilot,190137729,"An Anti-Gravity Active Device for Exoskeletons to Reduce the Impact of Work-Related Musculoskeletal Disorders in the Logistics, Retailing and Manufacturing Sectors.",HORIZON.3.1,The European Innovation Council (EIC),True,True
+pilot,190175727,Unlocking the value of a blue economy with a revolutionary Underwater Satellite to promote the sustainable use of our ocean’s resources,HORIZON.3.1,The European Innovation Council (EIC),True,True
+pilot,101114133,Identifying and developing adaptive skills for facing transformation,HORIZON.3.2,European innovation ecosystems,True,True
+pilot,101113151,Strategic Synergies Cluster XKIC BP 23-25 Proposal,HORIZON.3.3,The European Institute of Innovation and Technology (EIT),True,True
+pilot,101186601,Center for Digital Text Scholarship,HORIZON.4.1,Widening participation and spreading excellence,True,True
+pilot,101054755,New ERA - Towards a responsible knowledge driven society of the 3rd Millenium,HORIZON.4.2,Reforming and enhancing the European R&I System,True,True

@@ -1,0 +1,95 @@
+{
+  "source_file": "cordis-HORIZONprojects-csv.zip",
+  "source_sha256": "1496a16ee79649d573a53697781b2fd950c18a5469c6a9f545f35dd5397771a7",
+  "sample_sha256": "4c68e424d425bf4676244140a3f2696a942c3102438b6d146374afed3461090b",
+  "seed": "cordis-sdg-2026-09-29-v1",
+  "population": 23613,
+  "pilot": 20,
+  "holdout": 60,
+  "stratification": "CORDIS legalBasis uniqueProgrammePart=true",
+  "allocation": "minimum per stratum plus largest remainders of square-root stratum sizes",
+  "selection": "ascending SHA-256(seed|project_id), pilot first then disjoint holdout",
+  "strata": {
+    "EURATOM2027": {
+      "population": 61,
+      "pilot": 1,
+      "holdout": 3
+    },
+    "HORIZON.1.1": {
+      "population": 6589,
+      "pilot": 2,
+      "holdout": 7
+    },
+    "HORIZON.1.2": {
+      "population": 8631,
+      "pilot": 2,
+      "holdout": 8
+    },
+    "HORIZON.1.3": {
+      "population": 253,
+      "pilot": 1,
+      "holdout": 3
+    },
+    "HORIZON.2.1": {
+      "population": 760,
+      "pilot": 1,
+      "holdout": 4
+    },
+    "HORIZON.2.2": {
+      "population": 428,
+      "pilot": 1,
+      "holdout": 3
+    },
+    "HORIZON.2.3": {
+      "population": 215,
+      "pilot": 1,
+      "holdout": 3
+    },
+    "HORIZON.2.4": {
+      "population": 1374,
+      "pilot": 2,
+      "holdout": 4
+    },
+    "HORIZON.2.5": {
+      "population": 1504,
+      "pilot": 2,
+      "holdout": 4
+    },
+    "HORIZON.2.6": {
+      "population": 1010,
+      "pilot": 1,
+      "holdout": 4
+    },
+    "HORIZON.3.1": {
+      "population": 1535,
+      "pilot": 2,
+      "holdout": 5
+    },
+    "HORIZON.3.2": {
+      "population": 287,
+      "pilot": 1,
+      "holdout": 3
+    },
+    "HORIZON.3.3": {
+      "population": 38,
+      "pilot": 1,
+      "holdout": 2
+    },
+    "HORIZON.4.1": {
+      "population": 791,
+      "pilot": 1,
+      "holdout": 4
+    },
+    "HORIZON.4.2": {
+      "population": 137,
+      "pilot": 1,
+      "holdout": 3
+    }
+  },
+  "limitations": [
+    "Disproportionate stratification is useful for error discovery; unweighted sample rates are not corpus estimates.",
+    "The holdout must remain sealed while retrieval rules, prompts and confidence definitions are developed.",
+    "A 60-project holdout gives imprecise estimates; report uncertainty and per-stratum counts.",
+    "No project-to-SDG ground truth is asserted by this selection."
+  ]
+}

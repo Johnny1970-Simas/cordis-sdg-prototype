@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-09-28",
+  "cordis": {
+    "source_url": "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip",
+    "file": "cordis-HORIZONprojects-csv.zip",
+    "sha256": "1496a16ee79649d573a53697781b2fd950c18a5469c6a9f545f35dd5397771a7",
+    "project_rows": 23613
+  },
+  "taxonomy_scheme_index": {
+    "source_url": "https://data.europa.eu/sdg",
+    "file": "sdg.rdf",
+    "sha256": "3067cfdb99eef41a4555e65ca253aa9447c76450ebbbcb6352c3dd0192e2d026",
+    "status": "incomplete index; not suitable for mapping without concept descriptions"
+  },
+  "taxonomy_snapshot": {
+    "source_index_url": "https://data.europa.eu/sdg",
+    "concept_uri_pattern": "http://data.europa.eu/sdg/{id}",
+    "file": "sdg_full.rdf",
+    "sha256": "8363c935a11030c4617311228bf375f0e13a49b50d02ac2207c3e99e39957aa3",
+    "concept_count": 812,
+    "top_goal_count": 17,
+    "parent_edges": 816,
+    "multi_parent_concepts": 18,
+    "retrieval_method": "Dereferenced all concept URIs enumerated in official scheme index; merged RDF/XML responses with scheme graph; validated English labels, parents, cycles and top concepts."
+  }
+}
