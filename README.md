@@ -2,7 +2,7 @@
 
 Evidence-based mapping of CORDIS research projects to the United Nations Sustainable Development Goals (SDGs), using local language-model inference, deterministic technical validation and human review.
 
-**Live prototype:** https://cordis-sdg-prototype.streamlit.app/
+**Live prototype:** [https://cordis-sdg-prototype.streamlit.app/](https://cordis-sdg-prototype.streamlit.app/)
 
 ## Overview
 
@@ -65,11 +65,19 @@ Final integrity checks confirmed:
 
 These results describe technical validation status only. They are not human-confirmed SDG mappings or ground truth.
 
+Comparison with the single-human-reviewer, AI-assisted reference set showed limited substantive agreement. Exact concept agreement was observed for **4 of 60 holdout projects (6.7%)**, while a further **8 projects (13.3%)** matched at the level of the same top-level SDG but selected a different concept. Overall, **12 of 60 projects (20.0%)** agreed at least at SDG level.
+
+Technical validation did not predict stronger agreement with the human reference. Among the **50 technically validated projects**, **9 (18.0%)** matched at least at SDG level, compared with **3 of 10 technically rejected projects (30.0%)**.
+
+Given the small rejected subset and the fact that the reference set was produced by a single human reviewer with AI assistance, these figures should be interpreted as agreement measurements rather than accuracy estimates.
+
+This result highlights an important limitation of the current validation layer: deterministic checks establish structural validity, provenance and evidence correspondence, but do not by themselves establish semantic correctness of the selected SDG concept.
+
 ## Public application
 
 The interactive prototype is available at:
 
-**https://cordis-sdg-prototype.streamlit.app/**
+[**https://cordis-sdg-prototype.streamlit.app/**](https://cordis-sdg-prototype.streamlit.app/)
 
 The application allows users to:
 
@@ -157,12 +165,11 @@ The main project states are:
 
 ## Mapping outputs
 
-The repository distinguishes two different resources:
+The repository distinguishes three complementary evaluation resources.
 
 ### Model mapping table
 
-`model_mapping_table.csv
-`holdout_evaluation_metrics.csv`
+`model_mapping_table.csv`
 
 Contains the final model output for all **80 projects**:
 
@@ -181,7 +188,23 @@ All mappings remain pending human review.
 
 Contains single-human-reviewer, AI-assisted reference annotations for the 60-project holdout.
 
-These annotations are used for validation and error analysis and must not be interpreted as model predictions.
+These annotations are used for validation and error analysis and must not be interpreted as model predictions or ground truth.
+
+### Holdout evaluation metrics
+
+`holdout_evaluation_metrics.csv`
+
+Summarises the comparison between the 60-project holdout model output and the human reference.
+
+It includes:
+
+- exact concept agreement;
+- same-SDG agreement;
+- comparison by technical validation state;
+- distribution-concentration measures;
+- concept-attractor diagnostics.
+
+These metrics are agreement and diagnostic measures and must not be interpreted as accuracy estimates or ground truth.
 
 ## Evidence and provenance
 
@@ -207,7 +230,8 @@ Key evaluation and provenance resources include:
 - `SOURCE_MANIFEST.json` — pinned CORDIS source corpus and SDG taxonomy provenance;
 - `DEPLOYMENT_MANIFEST.json` — deployment provenance and artefact hashes;
 - `model_mapping_table.csv` — final 80-project model mapping output;
-- `mapping_table.csv` — human validation reference;
+- `mapping_table.csv` — single-human-reviewer, AI-assisted holdout reference;
+- `holdout_evaluation_metrics.csv` — holdout agreement, technical-state, distribution-concentration and concept-attractor diagnostic metrics;
 - `cordis_sdg_pilot.db` — static pilot database used by the public application;
 - `project_subset.json` — exported 80-project subset;
 - `sdg_full.rdf` — pinned SDG taxonomy snapshot.
@@ -238,6 +262,30 @@ In particular:
 
 The local model adapter was introduced after AI-assisted human holdout review. Consequently, the holdout must not be described as a fully independent untouched benchmark. This chronology is explicitly recorded in the run metadata.
 
+The holdout analysis also revealed possible concept-attractor behaviour. A small number of SDG concepts were selected repeatedly across semantically diverse projects despite limited agreement with the human reference.
+
+For example:
+
+- SDG 13.3 was selected for 10 projects but agreed at least at top-level SDG level in only 2 cases;
+- SDG 16.7 was selected 9 times with one same-SDG-or-exact agreement;
+- SDG 8.7 was selected 6 times with no same-SDG agreement;
+- SDG 17.13 was selected 4 times with no same-SDG agreement.
+
+The model distribution was not globally more concentrated than the human-reference distribution. Its five most frequent concepts accounted for **58.3%** of holdout assignments, compared with **51.5%** in the human reference.
+
+Overall concentration remained similar:
+
+- model HHI: **0.0844**
+- human-reference HHI: **0.0978**
+- model normalized entropy: **0.8683**
+- human-reference normalized entropy: **0.8643**
+
+The difference lies mainly in the shape of the distributions. The human reference was strongly dominated by SDG 9.5, which represented **26.5%** of mapped concepts, whereas the model repeatedly selected several concepts — particularly SDG 13.3, SDG 16.7, SDG 8.7, SDG 17.16 and SDG 17.13 — and substantially under-selected SDG 9.5.
+
+Taken together, these results are consistent with possible selection imbalance or concept-attractor behaviour in the model-selection stage.
+
+Because the comparison relies on a single-human-reviewer, AI-assisted reference rather than ground truth, this is diagnostic evidence rather than proof of model bias or concept-level error rates.
+
 ## Design objective
 
 The objective is not to maximise the number of SDG assignments.
@@ -250,4 +298,5 @@ The system is designed to provide a reproducible and reviewable mapping process 
 **Pilot:** completed — 20/20 projects  
 **Holdout:** completed — 60/60 projects  
 **Model mapping table:** 80 projects  
+**Holdout evaluation:** completed — agreement and diagnostic metrics published  
 **Human review:** required for all model proposals
