@@ -161,7 +161,8 @@ The repository distinguishes two different resources:
 
 ### Model mapping table
 
-`model_mapping_table.csv`
+`model_mapping_table.csv
+`holdout_evaluation_metrics.csv`
 
 Contains the final model output for all **80 projects**:
 
