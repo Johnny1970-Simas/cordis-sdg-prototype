@@ -1,0 +1,31 @@
+section,metric,count,denominator,percentage,value,notes
+coverage,projects_compared,60,60,100.0%,,All expected holdout projects were matched to the human reference.
+agreement,exact_concept_match,4,60,6.7%,,Exact concept_uri agreement with the human reference.
+agreement,same_goal_different_concept,8,60,13.3%,,"Same top-level SDG, but different concept."
+agreement,same_sdg_or_exact,12,60,20.0%,,Exact concept or same top-level SDG.
+agreement,different_goal_or_concept,43,60,71.7%,,Model and human reference differ at top-level SDG or concept level.
+agreement,model_mapping_vs_human_no_mapping,5,60,8.3%,,Model proposed a mapping where the reference marked no justified mapping.
+technical_state,validated_projects,50,60,83.3%,,validated_proposals_pending_review
+technical_state,rejected_projects,10,60,16.7%,,rejected_proposals_pending_review
+agreement_by_state,validated_same_sdg_or_exact,9,50,18.0%,,Agreement at least at top-level SDG among technically validated projects.
+agreement_by_state,rejected_same_sdg_or_exact,3,10,30.0%,,Agreement at least at top-level SDG among technically rejected projects.
+distribution_model,total_assignments,60,,,60,
+distribution_model,unique_concepts,26,,,26,
+distribution_model,top1_share,,,16.7%,0.167,
+distribution_model,top5_share,,,58.3%,0.583,
+distribution_model,hhi,,,,0.0844,Herfindahl-Hirschman Index.
+distribution_model,shannon_entropy,,,,4.0815,Entropy in bits.
+distribution_model,normalized_entropy,,,,0.8683,
+distribution_human_reference,total_assignments,68,,,68,Five projects were marked no_justified_mapping; mapped projects may contain multiple concepts.
+distribution_human_reference,unique_concepts,28,,,28,
+distribution_human_reference,top1_share,,,26.5%,0.265,Dominated by SDG 9.5.
+distribution_human_reference,top5_share,,,51.5%,0.515,
+distribution_human_reference,hhi,,,,0.0978,Herfindahl-Hirschman Index.
+distribution_human_reference,shannon_entropy,,,,4.1548,Entropy in bits.
+distribution_human_reference,normalized_entropy,,,,0.8643,
+diagnostic,model_top_concept_sdg_13_3,10,60,16.7%,,Same-SDG-or-exact agreement: 2/10 (20.0%).
+diagnostic,model_top_concept_sdg_16_7,9,60,15.0%,,Same-SDG-or-exact agreement: 1/9 (11.1%).
+diagnostic,model_top_concept_sdg_8_7,6,60,10.0%,,Same-SDG-or-exact agreement: 0/6 (0.0%).
+diagnostic,model_top_concept_sdg_17_16,6,60,10.0%,,Same-SDG-or-exact agreement: 1/6 (16.7%).
+diagnostic,model_top_concept_sdg_17_13,4,60,6.7%,,Same-SDG-or-exact agreement: 0/4 (0.0%).
+interpretation,reference_type,,,,,"Single-human-reviewer, AI-assisted reference; metrics are agreement/diagnostic measures, not accuracy or ground truth."
